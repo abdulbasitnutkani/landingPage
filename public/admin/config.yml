@@ -1,10 +1,10 @@
 backend:
   name: github
-  repo: abdulbasitnutkani/landingPage  # Apni actual repo ka naam likho
+  repo: abdulbasitnutkani/landingPage 
   branch: main
 
-media_folder: "static/images/uploads"  # Yahan media files store hongi
-public_folder: "/images/uploads"       # Yeh media file ka public path hai
+media_folder: "static/images/uploads"  
+public_folder: "/images/uploads"       
 
 collections:
   - name: "blog"
