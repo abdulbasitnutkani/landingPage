@@ -1,3 +1,17 @@
 backend:
-  name: git-gateway
-  branch: master 
+  name: github
+  repo: abdulbasitnutkani/landingPage  # Apni actual repo ka naam likho
+  branch: main
+
+media_folder: "static/images/uploads"  # Yahan media files store hongi
+public_folder: "/images/uploads"       # Yeh media file ka public path hai
+
+collections:
+  - name: "blog"
+    label: "Blog Posts"
+    folder: "content/blog"
+    create: true
+    fields:
+      - { name: "title", label: "Title", widget: "string" }
+      - { name: "date", label: "Date", widget: "datetime" }
+      - { name: "body", label: "Body", widget: "markdown" }
