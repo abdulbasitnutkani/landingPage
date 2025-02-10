@@ -9,6 +9,7 @@ import h7 from "../assets/h7.png";
 import bg2 from "../assets/bg2.png";
 import verified from "../assets/verified.png";
 import Slash from "./Slash";
+import Testing from "./Testing";
 const Hero = () => {
   return (
     <div>
@@ -268,10 +269,7 @@ const Hero = () => {
         className="relative  md:hidden flex flex-col h-[400px] w-full  mx-auto    bg-cover bg-center bg-no-repeat rounded-md "
         style={{ backgroundImage: `url(${bg2})` }}
       >
-        <div
-          className="flex flex-row bg-[#D9D9D9];
-"
-        >
+        <div className="flex flex-row">
           {/* Card 1 section */}
           <div className="flex flex-col  w-[160px] ml-3 bg-white shadow-lg rounded-lg overflow-hidden max-h-[170px] ">
             <img src={h1} alt="Mei Lin" className="w-full h-auto" />
@@ -346,7 +344,7 @@ const Hero = () => {
             </div>
           </div>
         </div>
-        <div className="flex flex-row bg-[#D9D9D9]">
+        <div className="flex flex-row">
           {/* Card 4 section */}
           <div className="flex flex-col w-[118px] -mt-24   bg-white shadow-lg rounded-lg rounded-l-none overflow-hidden max-h-[178px]">
             <img src={h4} alt="Ahmad Faizal" className="w-full h-auto" />
@@ -432,7 +430,7 @@ const Hero = () => {
             </div>
           </div>
         </div>
-        <div className="w-full flex justify-center py-3  bg-[#D9D9D9]">
+        <div className="w-full flex justify-center py-3">
           <div className="flex flex-col gap-2 w-[90%] max-w-[425px]">
             {/* First Card */}
             <div className="rounded-[18px] bg-white flex flex-col items-center justify-center p-5 shadow-lg">
@@ -504,6 +502,7 @@ const Hero = () => {
           </div>
         </div>
         <Slash />
+        <Testing />
       </div>
     </div>
   );
