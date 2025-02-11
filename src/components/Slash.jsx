@@ -4,7 +4,7 @@ import vector from "../assets/vector.png";
 const Slash = () => {
   return (
     <div
-      className="relative h-min-screen bg-cover bg-center mt-5 bg-[#D9D9D9]"
+      className="relative h-auto bg-cover bg-center mt-5 bg-[#D9D9D9]"
       style={{ backgroundImage: `url(${s1})` }}
     >
       {/* Vector Image Positioned on the Right Half & Blended */}
@@ -13,8 +13,7 @@ const Slash = () => {
         alt="Vector Overlay"
         className="absolute top-0 right-0 h-full w-1/2 object-cover opacity-80 mix-blend-overlay"
       />
-
-      <h1 className="ml-10 mt-5 text-left text-[48px] leading-[60px] font-bold text-[#FFFFFF] relative z-10">
+      <h1 className="ml-10 mt-8 text-left text-[48px] leading-[60px] font-bold text-[#FFFFFF] relative z-10">
         <span className="block">Slash</span>
         <span className="block">your</span>
         <span className="block">testing</span>
