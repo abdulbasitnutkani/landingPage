@@ -94,7 +94,6 @@ const Testing = () => {
                 <span className="text-[18px] font-normal"> / per month</span>
               </h1>
             </div>
-
             <h3 className="text-[#5B5AF7] text-12 font-bold">
               PAUSE OR CANCEL ANYTIME
             </h3>
@@ -103,7 +102,6 @@ const Testing = () => {
               Adhoc Testing is flexible, on-demand testing for occasional
               projects. Perfect for businesses with sporadic testing needs.
             </p>
-
             <div className="w-[307px] text-[#BBBBBB] h-[70px] text-[14px] font-[600px] bg-[#A9A9F824] flex items-center text-center justify-center rounded-sm py-4 ">
               Serves up to 4 developers with 48-hour delivery.
             </div>
