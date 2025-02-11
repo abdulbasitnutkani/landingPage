@@ -12,7 +12,6 @@ const Testing = () => {
           QA Testing as a <br /> Subscription Service
         </h1>
       </div>
-
       <div className="relative w-full h-[380px] mt-24">
         <img
           src={bg2}
@@ -89,9 +88,9 @@ const Testing = () => {
             </h1>
 
             <div className="flex items-center text-[#FFFFFFB2] gap-2">
-              <h1 className=" text-[22px] font-medium">$900</h1>
+              <h1 className=" text-[22px] font-medium">$14</h1>
               <h1 className=" text-[26px] font-semibold">
-                $499
+                $49
                 <span className="text-[18px] font-normal"> / per month</span>
               </h1>
             </div>
